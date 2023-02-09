@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "target": "ES2019",
+        "module": "commonjs",
+        "resolveJsonModule":true,
+        "suppressExcessPropertyErrors":true,
+        "types": [
+            "node",
+            "webdriverio/async",
+            "@wdio/cucumber-framework",
+            "expect-webdriverio"
+        ]
+    }
+}
